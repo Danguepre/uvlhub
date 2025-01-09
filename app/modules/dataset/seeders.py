@@ -52,7 +52,7 @@ class DataSetSeeder(BaseSeeder):
         authors = [
             Author(
                 name=f'Author {i+1}',
-                affiliation=f'Affiliation {i+1}',
+                affiliation=f'Aff   iliation {i+1}',
                 orcid=f'0000-0000-0000-000{i}',
                 ds_meta_data_id=seeded_ds_meta_data[i % 4].id
             ) for i in range(4)

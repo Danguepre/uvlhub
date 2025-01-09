@@ -9,7 +9,7 @@ from app import db
 
 class PublicationType(Enum):
     NONE = 'none'
-    ANNOTATION_COLLECTION = 'annotationcollection'
+    ANNOTATION_COLLECTION = 'annotatiooooooooooooooooooncollection'
     BOOK = 'book'
     BOOK_SECTION = 'section'
     CONFERENCE_PAPER = 'conferencepaper'
